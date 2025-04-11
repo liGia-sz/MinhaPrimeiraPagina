@@ -41,9 +41,8 @@ comando: **dotnet run**
 
 ## Tarefa
 Personalize o conteúdo da página "Sobre Mim":
-• Adicione seu nome
-• Escreva uma breve bio
-• Adicione uma imagem com Bootstrap (<img class="img-fluid rounded">)
-• Use ao menos 1 componente Bootstrap (alert, botão, card, etc.)
-Não esquecer de criar um repositório com o nome MinhaPrimeiraPagina e
-compartilhar o link no Classroom
+- Adicione seu nome
+- Escreva uma breve bio
+- Adicione uma imagem com Bootstrap (<img class="img-fluid rounded">)
+- Use ao menos 1 componente Bootstrap (alert, botão, card, etc.)
+- **Não esquecer de compartilhar o link no Classroom**
