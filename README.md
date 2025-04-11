@@ -26,10 +26,12 @@ app.UseStaticFiles(); // Permite servir arquivos da pasta wwwroot
 7. Determinar que o arquivo index.html seja o padrão, portanto, o bloco de
 código abaixo no dentro do arquivo: MinhaPrimeiraPagina /Program.cs
 
-```app.MapGet("/sobre", async context =>
+```
+app.MapGet("/sobre", async context =>
 {
 await context.Response.SendFileAsync("wwwroot/sobre.html");
-}); ```
+});
+```
 
 **Estrutura esperada:**
 ![image](https://github.com/user-attachments/assets/c149dad9-9923-4501-8017-8804974b8240)
