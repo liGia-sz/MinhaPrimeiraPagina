@@ -18,8 +18,10 @@ cd MinhaPrimeiraPagina
 
 6. Adicione o conteúdo abaixo no arquivo: MinhaPrimeiraPagina /Program.cs
 
-´´´app.UseDefaultFiles(); // Serve index.html por padrão
-app.UseStaticFiles(); // Permite servir arquivos da pasta wwwroot´´´
+´´´
+app.UseDefaultFiles(); // Serve index.html por padrão
+app.UseStaticFiles(); // Permite servir arquivos da pasta wwwroot
+´´´
 
 7. Determinar que o arquivo index.html seja o padrão, portanto, o bloco de
 código abaixo no dentro do arquivo: MinhaPrimeiraPagina /Program.cs
@@ -29,7 +31,7 @@ código abaixo no dentro do arquivo: MinhaPrimeiraPagina /Program.cs
 await context.Response.SendFileAsync("wwwroot/sobre.html");
 });´´´
 
-Estrutura esperada:
+**Estrutura esperada:**
 ![image](https://github.com/user-attachments/assets/c149dad9-9923-4501-8017-8804974b8240)
 
 Para executar o site através do terminal PowerShell ou Prompt execute o
